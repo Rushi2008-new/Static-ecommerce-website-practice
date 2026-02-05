@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --primary--color: #1f2937;
+  --nav-pill-color: #374151;
+}
+body {
+  background-color: rgb(214, 211, 211);
+}
+/* ----PRODUCTS PAGE */
+.header {
+  background-color: var(--primary--color);
+  height: 80px;
+  display: flex;
+  padding: 15px 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: pink;
+}
+.nav-pills {
+  text-decoration: none;
+  color: white;
+  margin-left: 3rem;
+  background-color: var(--nav-pill-color);
+  border-radius: 6px;
+  padding: 5px 6px;
+}
+.nav-pills:hover {
+  background-color: white;
+  color: black;
+  transition: 0.1s ease-in;
+}
+/* Active cell */
+.nav-pills.active {
+  background-color: blue;
+}
+.nav-pills.active:hover {
+  background-color: white;
+  color: black;
+}
+main {
+  margin: 5rem;
+}
+/* Main body */
+#filters {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dropdown {
+  border: 2px solid var(--primary--color);
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: #374151;
+  color: white;
+  cursor: pointer;
+}
+/* product-display */
+#productsDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* card */
+.product-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  padding: 14px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.product-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+}
+.product-title {
+  color: goldenrod;
+  text-align: center;
+}
+.product-description {
+  color: var(--primary--color);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.card-rating-discount-strip,
+.card-cart-button-strip {
+  display: flex;
+  justify-content: space-between;
+}
+.card-cart-button-strip {
+  margin-top: 20px;
+}
+.card-rating-discount-strip {
+  margin-top: 20px;
+}
+.rating {
+  background-color: rgb(81, 221, 81);
+  padding: 3px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+.discount {
+  color: green;
+  font-weight: bolder;
+  padding: 3px;
+  margin-left: 6px;
+}
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 6px;
+}
+.price {
+  font-weight: bold;
+}
+.product-button {
+  padding: 5px;
+  background-color: var(--nav-pill-color);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.product-button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  transition: 0.2s ease-in;
+  font-weight: bold;
+}
+.product-title {
+  margin-top: 5px;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}

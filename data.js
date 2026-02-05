@@ -1,0 +1,123 @@
+const products = [
+  {
+    id: 1,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root1/20260106/nh3H/695d20a17ef0c7385c4b5e9e/-473Wx593H-702723511-blue-MODEL.jpg',
+    name: 'BUDA JEANS CO',
+    description: 'Men Regular Fit Polo T-Shirt',
+    rating: 4.4,
+    price: 899,
+    discountedPrice: 699,
+    discountPercentage: 30,
+    gender: 'male',
+  },
+  {
+    id: 2,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root1/20250814/Ty76/689d3ee88bfb9009ac81bd6c/-473Wx593H-702110268-blue-MODEL.jpg',
+    name: 'KOTTY',
+    description: 'Men Relaxed Mid Rise Jeans',
+    rating: 4.3,
+    price: 599,
+    discountedPrice: 399,
+    discountPercentage: 25,
+    gender: 'male',
+  },
+  {
+    id: 3,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root1/20251003/tubT/68dfaca13d468c61ab425479/-473Wx593H-442767833-darkblue-MODEL3.jpg',
+    name: 'GAP',
+    description: 'Women Washed Relaxed Fit Jacket',
+    rating: 4.5,
+    price: 999,
+    discountedPrice: 699,
+    discountPercentage: 23,
+    gender: 'female',
+  },
+  {
+    id: 4,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root/20240830/7QG7/66d1deed1d763220fab1c4db/-473Wx593H-469624456-indigo-MODEL.jpg',
+    name: 'LEVIS',
+    description: 'Women Lightly Washed Slim Fit Mid-Rise Jeans',
+    rating: 4.2,
+    price: 899,
+    discountedPrice: 799,
+    discountPercentage: 10,
+    gender: 'female',
+  },
+  {
+    id: 5,
+    imgUrl: 'https://m.media-amazon.com/images/I/614k+Sjb50L._SX522_.jpg',
+    name: 'Symbol',
+    description:
+      'Premium Mens Casual Oxford Double Pocket Shirt - Regular Fit | Full Sleeve | Pure Cotton',
+    rating: 4.5,
+    price: 569,
+    discountedPrice: 369,
+    discountPercentage: 30,
+    gender: 'male',
+  },
+  {
+    id: 6,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root/20250710/LB1l/686eca5cb13fc54edd0f34c3/-473Wx593H-701902956-grey-MODEL.jpg',
+    name: 'THE BEAR HOUSE',
+    description: 'Men Self-Design Tailored Fit Shirt',
+    rating: 4.1,
+    price: 599,
+    discountedPrice: 299,
+    discountPercentage: 30,
+    gender: 'male',
+  },
+  {
+    id: 7,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root/20230621/ktFp/64923a5242f9e729d75e8285/-473Wx593H-463633516-grey-MODEL.jpg',
+    name: 'THE BEAR HOUSE',
+    description: 'Men Checked Slim Fit Shirt with Patch Pocket',
+    rating: 4.2,
+    price: 1099,
+    discountedPrice: 599,
+    discountPercentage: 40,
+    gender: 'male',
+  },
+  {
+    id: 8,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root/20250206/sdMQ/67a4c068bc78b543a928c696/-473Wx593H-420499059-multicolor-MODEL.jpg',
+    name: 'FASHION WORLD',
+    description: 'Women Embellished Relaxed Fit Cotton Round-Neck T-Shirt',
+    rating: 4.9,
+    price: 2999,
+    discountedPrice: 1999,
+    discountPercentage: 49,
+    gender: 'female',
+  },
+  {
+    id: 9,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root/20240108/5vao/659bf9fb74cb305fe008efaf/-473Wx593H-466960193-white-MODEL.jpg',
+    name: 'THE BEAR HOUSE',
+    description: 'Men Graphic Print Regular Fit Crew-Neck T-Shirt',
+    rating: 3.9,
+    price: 699,
+    discountedPrice: 399,
+    discountPercentage: 45,
+    gender: 'male',
+  },
+  {
+    id: 10,
+    imgUrl:
+      'https://assets-jiocdn.ajio.com/medias/sys_master/root1/20251229/SSxp/695267cacbfa0d5608344043/-473Wx593H-702685378-maroon-MODEL.jpg',
+    name: 'UTHAAN',
+    description: 'Women Floral Print Regular Fit Top',
+    rating: 4.8,
+    price: 799,
+    discountedPrice: 499,
+    discountPercentage: 40,
+    gender: 'female',
+  },
+];
+export default products;

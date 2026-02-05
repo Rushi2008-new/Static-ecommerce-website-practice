@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(214, 211, 211);
+}
+:root {
+  --primary--color: #1f2937;
+  --nav-pill-color: #374151;
+}
+/* ----PRODUCTS PAGE */
+.header {
+  background-color: var(--primary--color);
+  height: 80px;
+  display: flex;
+  padding: 15px 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: pink;
+}
+.nav-pills {
+  text-decoration: none;
+  color: white;
+  margin-left: 3rem;
+  background-color: var(--nav-pill-color);
+  border-radius: 6px;
+  padding: 5px 6px;
+}
+.nav-pills:hover {
+  background-color: white;
+  color: black;
+  transition: 0.1s ease-in;
+}
+/* Active cell */
+.nav-pills.active {
+  background-color: blue;
+}
+.nav-pills.active:hover {
+  background-color: white;
+  color: black;
+}
+main {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card1 {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 236, 236);
+  border-radius: 15px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+}
+.card1 img {
+  height: 300px;
+  width: 300px;
+}
+.card1 h2 {
+  margin: 0px;
+  color: rgb(138, 138, 66);
+  font-size: 50px;
+}
+.card1 p {
+  font-size: 32px;
+  color: var(--primary--color);
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+.card1 button {
+  flex-direction: column;
+  width: 100px;
+  padding: 7px;
+  margin-left: 35%;
+  background-color: blue;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+}
+.card1 button:hover {
+  background-color: black;
+  transition: 0.3s ease-in-out;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+#ourjourney h1 {
+  text-align: center;
+  color: var(--primary--color);
+}
+hr {
+  width: 30%;
+  margin-left: 35%;
+  height: 5px;
+  background-color: black;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+.category {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  justify-content: center;
+}
+.home-card {
+  height: 400px;
+  width: 300px;
+  margin: 3rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+.main-card-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.home-card img {
+  height: 280px;
+  width: 100%;
+}
+.home-card h2 {
+  font-size: large;
+}
+.home-card button {
+  width: fit-content;
+  margin-left: 40%;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: var(--nav-pill-color);
+  color: white;
+  font-weight: 400;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.home-card button:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
