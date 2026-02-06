@@ -44,6 +44,12 @@ body {
   background-color: white;
   color: black;
 }
+.cart {
+  margin-left: 3rem;
+  color: white;
+  padding: 5px 6px;
+  cursor: pointer;
+}
 main {
   margin: 5rem;
 }
@@ -77,6 +83,11 @@ main {
   padding: 14px;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s ease-in-out;
+  border: 2px solid limegreen;
 }
 .product-card img {
   object-fit: cover;
@@ -149,4 +160,5 @@ footer {
   text-align: center;
   background-color: black;
   color: white;
+  padding: 5px;
 }

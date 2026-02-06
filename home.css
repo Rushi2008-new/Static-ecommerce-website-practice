@@ -44,6 +44,12 @@ body {
   background-color: white;
   color: black;
 }
+.cart {
+  margin-left: 3rem;
+  color: white;
+  padding: 5px 6px;
+  cursor: pointer;
+}
 main {
   margin: 5rem;
   display: flex;
@@ -102,9 +108,16 @@ main {
   text-align: center;
   color: var(--primary--color);
 }
-hr {
+.inner hr {
   width: 30%;
   margin-left: 35%;
+  height: 5px;
+  background-color: red;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+#titlehr {
+  width: 20%;
+  margin-left: 40%;
   height: 5px;
   background-color: black;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
@@ -128,6 +141,11 @@ hr {
   border-radius: 6px;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
   outline: none;
+}
+.home-card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s ease-in-out;
+  border: 2px solid limegreen;
 }
 .main-card-div {
   display: flex;
@@ -163,4 +181,20 @@ footer {
   text-align: center;
   background-color: black;
   color: white;
+  padding: 5px;
 }
+#ourjourney p {
+  color: gray;
+  font-size: 14px;
+}
+.exploreproduct {
+  text-align: center;
+}
+.exp {
+  width: 20%;
+  margin-left: 40%;
+  height: 5px;
+  background-color: black;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+
