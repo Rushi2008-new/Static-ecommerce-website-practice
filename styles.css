@@ -9,9 +9,9 @@
   --nav-pill-color: #374151;
 }
 body {
-  background-color: rgb(214, 211, 211);
+  background-color: #fff;
 }
-/* ----PRODUCTS PAGE */
+/*Header CSS*/
 .header {
   background-color: var(--primary--color);
   height: 80px;
@@ -19,9 +19,14 @@ body {
   padding: 15px 2rem;
   justify-content: space-between;
   align-items: center;
+  background-color: whitesmoke;
+  backdrop-filter: blur(20px);
+  box-shadow: 5px 0 7px gray;
+  position: sticky;
+  top: 0;
 }
 .logo {
-  color: pink;
+  color: rgb(186, 20, 47);
 }
 .nav-pills {
   text-decoration: none;
@@ -32,8 +37,7 @@ body {
   padding: 5px 6px;
 }
 .nav-pills:hover {
-  background-color: white;
-  color: black;
+  opacity: 0.5;
   transition: 0.1s ease-in;
 }
 /* Active cell */
@@ -41,17 +45,33 @@ body {
   background-color: blue;
 }
 .nav-pills.active:hover {
-  background-color: white;
-  color: black;
+  opacity: 0.2;
 }
 .cart {
   margin-left: 3rem;
-  color: white;
-  padding: 5px 6px;
+  color: black;
+  padding: 2px 6px;
   cursor: pointer;
 }
+.login{
+  margin-left: 3rem;
+}
+.login button{
+  padding: 7px 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, red , yellow);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 3px 4px gray;
+}
+.login button:hover{
+  transform: scale(90%);
+  transition: 0.1s ease-in;
+}
 main {
-  margin: 5rem;
+  margin: 3rem;
 }
 /* Main body */
 #filters {
@@ -71,6 +91,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 /* card */
 .product-card {
