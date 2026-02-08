@@ -53,20 +53,20 @@ body {
   padding: 5px 6px;
   cursor: pointer;
 }
-.login{
+.login {
   margin-left: 3rem;
 }
-.login button{
+.login button {
   padding: 7px 8px;
   border-radius: 8px;
   border: none;
   outline: none;
-  background-image: linear-gradient(to right, red , yellow);
+  background-image: linear-gradient(to right, red, yellow);
   color: white;
   font-weight: bold;
   box-shadow: 0 3px 4px gray;
 }
-.login button:hover{
+.login button:hover {
   transform: scale(90%);
   transition: 0.1s ease-in;
 }
@@ -129,7 +129,7 @@ main {
   color: var(--primary--color);
 }
 .inner hr {
-  width: 10%;
+  width: 30%;
   margin-left: 35%;
   height: 5px;
   background-color: red;
@@ -206,6 +206,7 @@ footer {
 #ourjourney p {
   color: gray;
   font-size: 14px;
+  margin: 1rem;
 }
 .exploreproduct {
   text-align: center;
@@ -217,4 +218,3 @@ footer {
   background-color: black;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
 }
-

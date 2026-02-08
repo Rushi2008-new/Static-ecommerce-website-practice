@@ -11,7 +11,7 @@
 body {
   background-color: #fff;
 }
-/*Header CSS*/
+/* ----PRODUCTS PAGE */
 .header {
   background-color: var(--primary--color);
   height: 80px;
@@ -25,8 +25,9 @@ body {
   position: sticky;
   top: 0;
 }
-.logo {
-  color: rgb(186, 20, 47);
+.logo img {
+  width: 100px;
+  height: 80px;
 }
 .nav-pills {
   text-decoration: none;
@@ -53,20 +54,20 @@ body {
   padding: 2px 6px;
   cursor: pointer;
 }
-.login{
+.login {
   margin-left: 3rem;
 }
-.login button{
+.login button {
   padding: 7px 8px;
   border-radius: 8px;
   border: none;
   outline: none;
-  background-image: linear-gradient(to right, red , yellow);
+  background-image: linear-gradient(to right, red, yellow);
   color: white;
   font-weight: bold;
   box-shadow: 0 3px 4px gray;
 }
-.login button:hover{
+.login button:hover {
   transform: scale(90%);
   transition: 0.1s ease-in;
 }
@@ -77,22 +78,61 @@ main {
 #filters {
   display: flex;
   justify-content: space-evenly;
+  margin: 20px;
 }
 .dropdown {
-  border: 2px solid var(--primary--color);
+  border: 1px solid var(--primary--color);
   border-radius: 5px;
   font-size: 17px;
-  background-color: #374151;
-  color: white;
   cursor: pointer;
 }
 /* product-display */
 #productsDisplay {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
+  gap: 70px;
+  width: 70%;
+}
+.page-display {
+  display: flex;
+}
+#filters-section {
+  width: 25%;
+  color: var(--primary--color);
+  box-shadow: 0 5px 4px gray;
+  height: max-content;
+  padding: 7px;
+  margin-right: 30px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color: whitesmoke;
+}
+#filters-section h2 {
+  text-align: center;
+  margin-top: 3px;
+}
+.filter-title {
+  background-color: red;
+  height: fit-content;
+  color: white;
+}
+#rating-input {
+  width: 150px;
+}
+#clear-btn {
+  padding: 7px 12px;
+  margin-left: 40%;
+  font-weight: bolder;
+  background-color: blue;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+}
+#clear-btn:hover {
+  background-color: black;
+  color: #ddd;
+  transition: 0.3s ease-in;
 }
 /* card */
 .product-card {

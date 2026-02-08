@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="logo">Myntra</h1>
+      <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQugmm3E3LurCbAtNxyVMEjKvlT4Nv3cYPA&s"></div>
       <nav class="navbar">
         <a href="home.html" class="nav-pills">Home</a>
         <a href="index.html" class="nav-pills active">Products</a>
@@ -27,17 +27,85 @@
     </header>
     <main>
       <section id="filters">
-        <h2>Our Range Products</h2>
+        <h2>Featured Products</h2>
         <select class="dropdown">
-          <option value="">Gender</option>
+          <option value="">--Gender--</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
         </select>
       </section>
       <br />
-      <hr />
-      <br />
-      <section id="productsDisplay"></section>
+      <section class="page-display">
+        <div id="filters-section">
+          <div class="filter-title">
+            <h2>Filters</h2>
+          </div>
+          <br />
+          <h3>Gender</h3>
+          <br />
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <br /><br />
+          <label
+            ><input type="radio" name="gender" value="female" /> Female</label
+          >
+          <br /><br />
+          <h3>Rating:</h3>
+          <br />
+          <input
+            id="rating-input"
+            type="range"
+            step="0.5"
+            min="0"
+            max="5"
+            value="0"
+          />
+          <br /><br />
+          <p>Greater than: <span id="rating-output">0</span></p>
+          <br />
+          <h3>Categories</h3>
+          <br />
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Formal" />
+            Formal
+          </label>
+          <br /><br />
+          <label>
+            <input
+              type="checkbox"
+              class="category-checkbox"
+              value="Semi-Casual"
+            />
+            Semi-Casual
+          </label>
+          <br /><br />
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Casual" />
+            Casual
+          </label>
+          <br /><br />
+          <label>
+            <input
+              type="checkbox"
+              class="category-checkbox"
+              value="Party-wear"
+            />
+            Party-wear
+          </label>
+
+          <br /><br />
+          <label>
+            <input
+              type="checkbox"
+              class="category-checkbox"
+              value="Sportswear"
+            />
+            Sportswear
+          </label>
+          <br /><br />
+          <button id="clear-btn">Clear</button>
+        </div>
+        <div id="productsDisplay"></div>
+      </section>
     </main>
     <footer>&copy;Copyright 2026: Myntra</footer>
   </body>
