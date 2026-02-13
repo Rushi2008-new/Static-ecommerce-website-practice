@@ -80,7 +80,7 @@ main {
   justify-content: space-evenly;
   margin: 20px;
 }
-.dropdown {
+#gender-selection {
   border: 1px solid var(--primary--color);
   border-radius: 5px;
   font-size: 17px;
@@ -147,9 +147,9 @@ main {
   background-color: #fff;
 }
 .product-card:hover {
-  transform: translateY(-8px);
   transition: 0.3s ease-in-out;
-  border: 2px solid limegreen;
+  border: 1px solid blue;
+  box-shadow: 0 4px 5px black;
 }
 .product-card img {
   object-fit: cover;

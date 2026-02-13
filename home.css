@@ -164,9 +164,9 @@ main {
   outline: none;
 }
 .home-card:hover {
-  transform: translateY(-8px);
-  transition: 0.3s ease-in-out;
-  border: 2px solid limegreen;
+  box-shadow: 0 4px 5px black;
+  border: blanchedalmond;
+  transition: 0.3s ease-in;
 }
 .main-card-div {
   display: flex;
